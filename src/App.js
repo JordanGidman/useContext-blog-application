@@ -29,8 +29,6 @@ function App() {
     setPosts((posts) => [post, ...posts]);
   }
 
-  //aa
-
   function handleClearPosts() {
     setPosts([]);
   }
